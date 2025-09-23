@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Belajar membuat from</title> 
+    </head>
+    <body>
+    <from action="formulir.html" methode="get">
+        nama : <input type="text" name="nama" value="Nama kamu"/>
+        <br />
+        password: <input type="password" name="password"/>
+        <br />
+        jenis kelamin:
+        <input type="radio" name="jenis kelamin" value="laki-laki" />
+        laki=laki
+         <input type="radio" name="jenis kelamin" value="perempuan" />
+        <br />
+        Hobi: <input type="checkbox" name="Hobi_baca" /> membaca buku
+              <input type="checkbox" name="hobi_nulis" /> menulis
+              <input type="checkbox" name="hobi_masak" /> memasak
+        <br />
+        Asal Kota:
+        <select name="asal_kota">
+            <option value="kota jakarta"> jakarta</option>
+            <option value="kota surabaya">surabaya</option>
+            <option value="kota Bandung"> bandung</option>
+        </select>
+    <br/>
+    komentar anda:
+    <textarea name="komentar" rows="5" cols="20">
+        silahkan katakan isi hati anda
+    </textarea>
+    <br/>
+    <input type="submit" value="mulai proses!">
+    </from>
+    </body>
+    </html>
