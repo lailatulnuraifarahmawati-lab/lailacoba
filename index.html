@@ -1,5 +1,90 @@
-<html>
-    <h2>
-        saya mencoba belajar
-    </h2>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Pertama Saya - Internal CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef6ff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fff;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 2px solid #ccc;
+    }
+    h2 { color: #003366; }
+    nav {
+      background-color: #cde1ff;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: black;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .banner {
+      text-align: center;
+      background-color: #b2d8ff;
+      padding: 10px;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+    }
+    .content, .sidebar {
+      background-color: #fff;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    .content { width: 70%; }
+    .sidebar { width: 25%; }
+    h3 { color: #004080; }
+    p { color: #333; }
+    footer {
+      background-color: #cde1ff;
+      text-align: center;
+      padding: 10px;
+      border-top: 2px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>WEBSITE PERTAMA SAYA</h2>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Berita</a>
+    <a href="#">Tentang Kami</a>
+  </nav>
+
+  <div class="banner">
+    <img src="gambar1.jpg" alt="Banner" width="80%">
+  </div>
+
+  <div class="container">
+    <div class="content">
+      <h3>Content</h3>
+      <p>Ini adalah bagian konten utama dari website.</p>
+    </div>
+
+    <div class="sidebar">
+      <h3>Sidebar</h3>
+      <p>Bagian ini bisa berisi informasi tambahan atau tautan lain.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Copyright by Lailatul Nur Aifa Rahmawati | 085707744553</p>
+  </footer>
+</body>
 </html>
